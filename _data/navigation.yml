@@ -1,4 +1,10 @@
 header:
+  - title: CheatSheet
+    url: /cheatsheet/python/conda
+
+  - title: Paper Summary
+    url: /papersummary/cryptography/how-to-share-a-secret
+
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -48,3 +54,18 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+
+sidebar-cheatsheet:
+  - title:      Python
+    children:
+      - title:  Conda
+        url:    /cheatsheet/python/conda
+  - title:      Docker
+
+
+sidebar-papersummary:
+  - title:      Cryptography
+    children:
+      - title:  How To Share A Secret
+        url:    /papersummary/cryptography/how-to-share-a-secret
