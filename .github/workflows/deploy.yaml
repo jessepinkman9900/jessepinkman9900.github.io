@@ -1,0 +1,22 @@
+name: Deploy - Blog
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.2'
+      - uses: abatilo/action-poetry@v2
+        with:
+          poetry-version: '1.7.1'
+      - name: install deps, build & deploy
+        run: |
+          poetry install
+          poetry run mkdocs gh-deploy --force --clean --verbose
