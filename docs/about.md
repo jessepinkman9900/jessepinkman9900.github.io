@@ -3,5 +3,5 @@ trying to learn mechanism design
 interested in multi-disciplinary problems  
 running & bjj  
 
-# Previous Projects
+# Projects
 - [blankrasa.com](https://blankrasa.com)
