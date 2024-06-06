@@ -5,7 +5,6 @@ description = ""
 authors = ["jessepinkman9900 <srinivas@neobase.one>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "jessepinkman9900"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
