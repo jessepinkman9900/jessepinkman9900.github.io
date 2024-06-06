@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jessepinkman9900-github-io"
+name = "docs"
 version = "0.1.0"
 description = ""
 authors = ["jessepinkman9900 <srinivas@neobase.one>"]
